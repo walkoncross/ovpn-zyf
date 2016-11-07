@@ -24,5 +24,5 @@ ADD ./ovpn-ssh-zyf/ssh/* /home/.ssh/
 
 RUN chmod 777 /home/ssh-connect.sh /home/openvpn/vpn-connect.sh
 
-CMD create-tun
+RUN create-tun
 CMD ["/bin/bash"]

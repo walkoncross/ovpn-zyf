@@ -1,5 +1,6 @@
-FROM ubuntu:precise
-RUN echo deb http://archive.ubuntu.com/ubuntu/ precise main universe > /etc/apt/sources.list.d/precise.list
+FROM ubuntu:14.04
+#FROM ubuntu:precise
+#RUN echo deb http://archive.ubuntu.com/ubuntu/ precise main universe > /etc/apt/sources.list.d/precise.list
 
 RUN apt-get update -q
 RUN apt-get install -qy vim wget curl tmux

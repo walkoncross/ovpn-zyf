@@ -1,0 +1,1 @@
+openvpn --mktun --dev tun0
